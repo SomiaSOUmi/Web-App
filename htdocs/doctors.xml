@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<doctors> 
+			<doctor>
+				<name>Doctor1</name> 
+				<password>1234</password> 
+			</doctor>
+			<doctor>
+				<name>Doctor2</name> 
+				<password>1234</password> 
+			</doctor>
+			<doctor>
+				<name>Doctor3</name> 
+				<password>1234</password> 
+			</doctor>
+			<doctor>
+				<name>Doctor4</name> 
+				<password>1234</password> 
+			</doctor>
+			<doctor>
+				<name>Doctor5</name> 
+				<password>1234</password> 
+			</doctor>
+			<doctor>
+				<name>Doctor6</name> 
+				<password>1234</password> 
+			</doctor>
+			<doctor>
+				<name>Doctor7</name> 
+				<password>1234</password> 
+			</doctor>
+			<doctor>
+				<name>Doctor8</name> 
+				<password>1234</password> 
+			</doctor>
+	</doctors>

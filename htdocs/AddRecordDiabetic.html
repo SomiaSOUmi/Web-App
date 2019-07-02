@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<style>
+.b1 {
+    background-color: transparent;
+    border: '2' thin blue solid ;
+    color: blue;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:large;
+    margin: 1px 1px;
+    cursor: pointer;
+    margin:25px; height:50px; width:250px;text-align:center; font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+</style>
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title>
+</head>
+
+<body bgcolor="silver">
+
+	<h1 align="center" style="margin:40px; color:blue; font-size:xx-large; "> Insert new record </h1>
+	<h2 align="center" style="margin:40px; color:blue; font-size:large; "> Please enter your all the details </h2>
+	<div align="center" style=" color:blue">
+		<form action="AddRecordDiabetic.php" method="post">
+			<div style="font-size:large; font-weight:bolder">
+			Dose of Insuline taken 
+			</div>
+			<input type="text" style="width:250px;" align="middle" style="font-size:medium" name="dose"></input>
+			<br><br><br>
+
+			<div style="font-size:large; font-weight:bolder">
+			Level of Glucose 
+			</div>
+			<input type="text" style="width:250px;" align="middle" style="font-size:medium; color:blue" name="glucose"></input>
+			<br><br><br><br><br>
+			
+			<input class="b1" align="middle" type="submit" style="font-size:x-large" value="Submit" ></input> 
+		</form>
+	</div>
+	<div align="center" >
+		<button type="button" class="b1" onclick=window.location.assign("diabetic.php") > Return To The Dashboard </button>
+	</div>
+</body>
+
+</html>
